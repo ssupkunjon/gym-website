@@ -1,0 +1,43 @@
+.bg{
+    margin-top: 50px;
+    background-image:url("D:\PROJECTS\GYM\gym\src\assets\breadcrumb-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.content4 h1{
+    color:rgb(50, 196, 50);
+    position:absolute;
+    left: 300px;
+    margin-top: 150px;
+    font-size: 40px;
+    
+}
+
+.content4 P{
+    color: #FFF;
+    position: absolute;
+    left: 300px;
+    margin-top: 230px;
+    font-size: 20px;
+}
+.content4 button{
+    position: absolute;
+    left: 300PX;
+    margin-TOP: 300PX;
+    width: 150PX;
+    height: 50PX;
+    background-color: rgb(76, 212, 76);
+    color: #fff;
+    font-size: 14PX;
+    border-radius: 10px;
+    border: 2PX solid rgb(76, 212, 76);
+}
+
+.content4 button:hover {
+    background-color:transparent;
+    color: rgb(76, 212, 76);
+    transition:0.2s
+}

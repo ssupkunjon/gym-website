@@ -1,0 +1,61 @@
+.plan{
+    /* background-color: rgb(19, 19, 19); */
+    margin-top: -150px;
+}
+
+#our{
+    color: #37de32;
+    text-align: center;
+}
+#choose{
+    color: #fff;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+.price{
+        margin-top: 90px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.price:hover{
+    background-color: #2e2d2d;
+    color: #36d73c;
+    border: 2px solid #3ed168;
+    transform: scale(1.1);
+}
+.title{
+    color: #4bd64b;
+    font-weight: bold;
+}
+.title:hover{
+    color: #f3f0f0;
+}
+.plan-price{
+    color: #fff;
+    margin-top: 25px;
+}
+.featurs{
+    color: #fff;
+    margin-top:25px;
+}
+.enroll{
+    background-color: transparent;
+    color:#40c944 ;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    border: 2px solid #40c944;
+}
+.enroll:hover{
+    background-color: #40c944;
+    color: black;
+}

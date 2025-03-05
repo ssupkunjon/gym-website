@@ -1,0 +1,96 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+.navbar-bg{
+    background-image: url("D:\PROJECTS\GYM\gym\src\assets\Put Your Money Where Your Mouth Is_ Be Inspired by Your Photos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 50%;
+  margin-bottom: 50px;
+  padding: 0;
+  display: flex;
+  
+}
+
+nav ul li {
+  margin: 0 15px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav ul li :hover{
+    color: #1de74f;
+}
+
+.content1{
+    position: absolute;
+    color:#fff;
+    left: 10%;
+    top: 45%;
+}
+
+.content1 p{
+    font-size:20px;
+    font-weight: 600;
+}
+
+.content1 h1{
+    font-size:70px;
+}
+
+.content1 span{
+    color: #1de74f;
+}
+@keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .content1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    animation: fadeUp 2s ease-in-out;
+  }
+  .btn-start{
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    width: 150px;
+    height: 40px;
+    border: 1PX solid #1de74f;
+    background-color: #1de74f;
+    color: #fff;
+    border-radius: 6px;
+  }
+  .btn-start:hover{
+    background-color:#1ab741; 
+    border-color: #1ab741;
+  }
+  
