@@ -17,7 +17,7 @@ function Content() {
         <div className="card">
         <img src={gym} alt="" />
         <h1>Proffesponal training plan</h1>
-        <p className="lorem1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+        <p className="lorem1"> Lorem ipsum dolor sit amet, consectetur  elit,<br/> sed do eiusmod tempor incididunt ut dolore facilisis.</p>
         </div>
 
         <div className="card">
